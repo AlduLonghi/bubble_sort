@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # bubble_sort_by (accepting a block as a parameter)
 
 def bubble_sort_by(arr)
@@ -10,7 +8,7 @@ def bubble_sort_by(arr)
       i += 1
     end
   end
-  puts arr
+  prints arr
 end
 
 bubble_sort_by([2, 7, 5, 6, 1]) do |left, right|
