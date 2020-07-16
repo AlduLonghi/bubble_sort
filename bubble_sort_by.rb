@@ -8,9 +8,11 @@ def bubble_sort_by(arr)
       i += 1
     end
   end
-  prints arr
+  arr
 end
 
-bubble_sort_by([2, 7, 5, 6, 1]) do |left, right|
+sorted = bubble_sort_by([2, 7, 5, 6, 1]) do |left, right|
   left - right
 end
+
+puts sorted
